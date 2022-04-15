@@ -20,4 +20,5 @@ MyLinkedList<T> myLinkedList;
 		myLinkedList.add(temp);
 		return temp;
 	}
+}
 
