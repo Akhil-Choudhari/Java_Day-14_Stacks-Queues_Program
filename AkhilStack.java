@@ -1,10 +1,10 @@
 package LinkedListProgram;
 
 public class AkhilStack<T> {
-MyLinkedList<T> myLinkedList;
+LinkedList<T> myLinkedList;
 	
-	public MyStack(){
-		myLinkedList = new MyLinkedList<T>();
+	public AkhilStack(){
+		myLinkedList = new LinkedList<T>();
 	}
 	
 	public void push(T data){
@@ -19,6 +19,13 @@ MyLinkedList<T> myLinkedList;
 		T temp = myLinkedList.pop();
 		myLinkedList.add(temp);
 		return temp;
+	}
+	public boolean isEmpty(){
+		return myLinkedList.isEmpty();
+	}
+	
+	public int size(){
+		return myLinkedList.size();
 	}
 }
 
